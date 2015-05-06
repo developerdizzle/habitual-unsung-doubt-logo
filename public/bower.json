@@ -1,0 +1,21 @@
+{
+  "name": "habitual-unsung-doubt-logo",
+  "version": "0.0.0",
+  "homepage": "https://github.com/developerdizzle/habitual-unsung-doubt-logo",
+  "authors": [
+    "developerdizzle <david.bohner@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.8.3",
+    "bootstrap": "~3.3.4"
+  }
+}

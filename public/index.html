@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/app.css" />
+    </head>
+    <body>
+        <br />
+        <section class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <h3>Filter by first name:</h3>
+                    <select id="firstName" class="form-control"></select>
+                </div>
+                <div class="col-xs-6">
+                    <h3>Filter by title:</h3>
+                    <select id="title" class="form-control"></select>
+                </div>
+            </div>
+        </section>
+        
+        <section id="team" class="container">
+            
+        </section>
+        
+        <script id="member-template" type="text/template">
+            <div data-first-name="<%- name.split(' ')[0] %>" data-title="<%- title %>" class="member col-xs-12 col-sm-4 col-md-3">
+                <h3 class="name"><%- name %></h3>
+                <h4 class="title"><%- title %></h4>
+                <img class="img-responsive" src="http://get.hudl.com<%- pic %>" />
+                <blockquote><%- quote %></blockquote>
+            </div>
+        </script>
+        
+        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/bower_components/underscore/underscore-min.js"></script>
+        <script src="/app.js"></script>
+    </body>
+</html>

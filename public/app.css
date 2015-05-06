@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px) {
+    #team .member {
+        min-height: 40em;
+    }
+}
+
+#team .member img {
+    margin: 0 auto;
+}
+
+#team .member .title {
+    min-height: 2em;
+}
